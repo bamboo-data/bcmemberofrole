@@ -1,0 +1,25 @@
+{
+    "name": "bamboo/bcmemberofrole-ls",
+    "description": "eZ Publish legacy extension providing 'member_of_role' template operator",
+    "type": "ezpublish-legacy-extension",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Brookins Consulting",
+            "homepage": "https://brookinsconsulting.com"
+        }
+    ],
+    "require": {
+        "bamboo/ow-simple-operator-ls": "~1.1",
+        "ezsystems/ezpublish-legacy-installer": "~2.0"
+    },
+    "repositories": {
+        "ow-simple-operator-ls": {
+            "type": "vcs",
+            "url": "git@github.com:bamboo-data/OWSimpleOperator.git"
+        }
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "bcmemberofrole"
+    }
+}
